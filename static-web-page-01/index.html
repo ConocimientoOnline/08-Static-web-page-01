@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Página web estática</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Tinos:wght@700&display=swap" rel="stylesheet">
+	<script type="text/javascript" src='js.js'></script>
+</head>
+<body>
+	<div class="all">
+		<div class="menu-header">
+			<div class="logo">
+				HOUSE OF THE DOGS
+			</div>
+			<div class="menu">
+				<a href="">Home</a>
+				<a href="">Dogs</a>
+				<a href="">Services</a>
+				<a href="">About us</a>
+				<a href="">Contact</a>
+			</div>
+		</div>
+		<div class="content-bd">
+			<div class="txt">
+				<div class="txt_1" id='txt_1'>
+					<h1>DOGS-HOUSE</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.</p>
+					<div class="btn" onclick='girar_imagen();'>
+						Write Petition
+					</div>
+				</div>
+				<div class="txt_2" id='txt_2'>
+					<h1>Train your dogs</h1>
+					<form>
+						<div class="name">
+							<div class="name_">Name:</div>
+							<div class="input">
+								<input type="text" name="name" placeholder="Write your name...">
+							</div>
+						</div>
+						<div class="name">
+							<div class="name_">Email:</div>
+							<div class="input">
+								<input type="email" name="email" placeholder="Write your email...">
+							</div>
+						</div>
+						<div class="name">
+							<div class="name_">Phone:</div>
+							<div class="input">
+								<input type="text" name="phone" placeholder="Write your phone...">
+							</div>
+						</div>
+						<div class="name">
+							<div class="name_"></div>
+							<div class="txtarea">
+								<textarea placeholder="Write your petition..."></textarea>
+							</div>
+						</div>
+					</form>
+					<div class="btn" onclick='posicion_normal();'>Send</div>
+				</div>
+			</div>
+			<div class="img">
+				<div class="front" id='front'>
+					<img src="imgs/dog_borde01.png">
+				</div>
+				<div class="back" id='back'>
+					<img src="imgs/dog_borde02.png">
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
